@@ -108,7 +108,7 @@ const CONFIG = {
       },
       {
         name: 'Dodona',
-        link: 'dodona.ugent.be/',
+        link: 'https://dodona.ugent.be/',
       },
     ],
     secondList: [
