@@ -21,7 +21,7 @@
   --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #fabd2f; /* Foreground color */
+  --fg: #3a3a3a; /* Foreground color */
   --sfg: #494949; /* Sceondary Foreground color */
 
   /* Light Colors  */
@@ -42,10 +42,11 @@
   --accent: #689d68; /* Hover color */
   --background: #1d2021; /* Background color */
   --cards: #201e21; /* Cards color */
+  --icon-color: 1d2021; /* color of icon
 
   /* Fonts Color */
-  --fg: #d79921; /* Foreground color */
-  --sfg: #d79921; /* Secondary Foreground color */
+  --fg: #d8dee9; /* Foreground color */
+  --sfg: #3a3a3a; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -225,7 +226,7 @@ body {
 .buttonIcon {
   width: var(--icon);
   height: var(--icon);
-  color: #1d2021 ;
+  color: var(--icon-color);
 }
 
 .button__1 {
