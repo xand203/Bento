@@ -42,7 +42,7 @@
   --accent: #689d68; /* Hover color */
   --background: #1d2021; /* Background color */
   --cards: #201e21; /* Cards color */
-  --icon-color: #1d2021; /* color of icons
+  --icon-color: #d79921; /* color of icons
 
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
@@ -226,7 +226,7 @@ body {
 .buttonIcon {
   width: var(--icon);
   height: var(--icon);
-  color: var(--icon-color);
+  color: #d79921;
 }
 
 .button__1 {
