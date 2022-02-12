@@ -94,7 +94,7 @@ body {
   margin: 2em 2em 0 0;
   right: 0;
   top: 0;
-  color: var(--fg);
+  color: red;
   border: none;
   cursor: pointer;
   background-color: #00000000;
@@ -117,7 +117,6 @@ body {
 
 .card {
   background-color: var(--cards);
-  color: red;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
 }
