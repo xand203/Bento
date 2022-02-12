@@ -226,7 +226,7 @@ body {
 .buttonIcon {
   width: var(--icon);
   height: var(--icon);
-  color: var(--fg);
+  color: red;
 }
 
 .button__1 {
