@@ -11,9 +11,9 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Xander',
   imageBackground: false,
-  openInNewTab: true,
+  openInNewTab: false,
   twelveHourFormat: false,
 
   // Greetings
@@ -23,23 +23,23 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-  weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherKey: '75d229bde05bd18d689db79b9a510b61', // Write here your API Key
+  weatherIcons: 'Dark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '50.958',
+  defaultLongitude: '3.601',
 
   // Autochange
-  autoChangeTheme: true,
+  autoChangeTheme: false,
 
   // Autochabge by OS
   changeThemeByOS: false, 
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
-  changeThemeByHour: true,
+  changeThemeByHour: false,
   hourDarkThemeActive: '18:30',
   hourDarkThemeInactive: '07:00',
 
@@ -59,19 +59,19 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/',
     },
     {
       id: '3',
       name: 'Todoist',
       icon: 'trello',
-      link: 'https://todoist.com',
+      link: 'https://nx6817.your-storageshare.de/apps/tasks/',
     },
     {
       id: '4',
       name: 'Calendar',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://nx6817.your-storageshare.de/apps/calendar',
     },
     {
       id: '5',
@@ -83,7 +83,7 @@ const CONFIG = {
       id: '6',
       name: 'Odysee',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
