@@ -110,6 +110,10 @@ const CONFIG = {
         name: 'Dodona',
         link: 'https://dodona.ugent.be/',
       },
+      {
+        name: 'OProgrammeren',
+        link : 'https://github.ugent.be/Prog2',
+      },
     ],
     secondList: [
       {
