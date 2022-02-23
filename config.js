@@ -124,6 +124,10 @@ const CONFIG = {
         name: 'Netflix',
         link: 'https://netflix.com/',
       },
+      {
+        name: 'Element',
+        link: 'https://app.element.io',
+      },
     ],
   },
 };
