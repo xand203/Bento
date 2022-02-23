@@ -128,6 +128,10 @@ const CONFIG = {
         name: 'Element',
         link: 'https://app.element.io',
       },
+      {
+        name: 'Mattermost',
+        link: 'https://mattermost.zeus.gent',
+      },
     ],
   },
 };
